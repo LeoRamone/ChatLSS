@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "917398635396",
+    "firebase_url": "https://batepapoapp-fd2b9.firebaseio.com",
+    "project_id": "batepapoapp-fd2b9",
+    "storage_bucket": "batepapoapp-fd2b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917398635396:android:04b3fb4a888d4e17",
+        "android_client_info": {
+          "package_name": "com.leonardo_soares_soares.batepapolss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917398635396-18aonqu0qo1nfsp5l4dn3bmokmlm7lv3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.leonardo_soares_soares.batepapolss",
+            "certificate_hash": "9bf3bde60c89cc6579ead39330ddb515867c3700"
+          }
+        },
+        {
+          "client_id": "917398635396-2h0bnjq1vc58504p47k4dudksv6r3bip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhfNllpjytektxJ7aC8dqBgcuvSXgLjRo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917398635396-2h0bnjq1vc58504p47k4dudksv6r3bip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

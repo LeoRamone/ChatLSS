@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ConversaActivity">
+
+    <include
+        android:id="@+id/tb_conversa"
+        layout="@layout/toolbar">
+
+    </include>
+
+    <ListView
+
+        android:id="@+id/lv_conversas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_mensagem"
+        android:layout_below="@+id/tb_conversa"
+        android:padding="8dp">
+
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/ll_mensagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/login_edittext_bg"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="10dp"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:id="@+id/edit_mensagem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Digite sua mensagem aqui ..."
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/emailclaro" />
+
+        <ImageButton
+            android:id="@+id/bt_enviar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_action_send" />
+
+    </LinearLayout>
+
+</RelativeLayout>
